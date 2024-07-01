@@ -86,3 +86,15 @@ span{
     color: var(--main--color);
 }
 
+.inicio, .experiencias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.inicio-img img ,.projetos-container img {
+    width: 100% ;
+}
+
