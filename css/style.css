@@ -129,7 +129,7 @@ span{
 .experiencias-container{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 
 .experiencias-box {
@@ -153,3 +153,116 @@ span{
     background-color: var(--main--color);
     transform: scale(1.01);
 }
+
+.btn{
+    display: inline-block;
+    padding:  0.7rem 1.8rem;
+    background-color: var(--main--color);
+    border-radius: 2rem;
+    color: var(--color2);
+    font-weight: 600;
+    letter-spacing:  0.1rem;
+    transition: 0.3s ease;
+    margin-top: 1.2rem; 
+}
+
+.btn:hover{
+    box-shadow: 0 0 0.3rem;
+    background-color: inherit;
+    color: var(--main--color);
+    cursor: pointer;
+}
+
+.projetos {
+    padding: 50px;
+    text-align: center;
+}
+
+.projetos h2 {
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.projetos h2 span {
+    color: #ff6f61;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projetos-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin: 0.75rem;
+    width: 320px;
+    box-shadow: 0px 0px 20px rgb(231, 231, 231);
+    transition: all 0.6s;
+}
+
+.projetos-box:hover {
+    transform: scale(1.03);
+}
+
+.projetos-box img {
+    max-width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+.projetos-layer {
+    text-align: left;
+}
+
+.projetos-layer h4 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.projetos-layer p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.tech-stack {
+    margin: 1rem 0;
+}
+
+.tech-stack span {
+    background: #e3e3e3;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.buttons {
+    margin-top: 1rem;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+.website-btn {
+    background: #4CAF50;
+}
+
+.github-btn {
+    background: #333;
+}
+
