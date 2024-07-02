@@ -4,6 +4,7 @@
 :root{
     --main--color: #00eeff;
     --text--color: #ffffff;
+    --bg--color: #0A192F;
     --bg--colocar-01: #1f242d;
     --bg--colocar-02: #323946;
     --colocar-00: #00000048;
@@ -45,7 +46,7 @@ header{
     left: 0;
     width: 100%;
     padding: 1.1rem;
-    background-color: var(--color1);
+    background-color: var(--bg--color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -266,3 +267,16 @@ span{
     background: #333;
 }
 
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+
+  .navbar-brand img{
+    width:30%;
+  }
